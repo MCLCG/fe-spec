@@ -1,4 +1,7 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npx commitlint --edit $1
+# pnpm run lint
+
+# 在commit的时候自动执行commit的规则
+# npx commitlint --edit $1
