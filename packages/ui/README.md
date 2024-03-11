@@ -1,11 +1,11 @@
-# `fe-spec`
+# `ui`
 
 > TODO: description
 
 ## Usage
 
 ```
-const feSpec = require('fe-spec');
+const ui = require('ui');
 
 // TODO: DEMONSTRATE API
 ```

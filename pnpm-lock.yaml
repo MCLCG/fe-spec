@@ -4,54 +4,68 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
-  conventional-changelog-conventionalcommits:
-    specifier: ^4.5.0
-    version: 4.6.3
+importers:
 
-devDependencies:
-  '@commitlint/cli':
-    specifier: ^17.6.1
-    version: 17.8.1
-  husky:
-    specifier: ^8.0.3
-    version: 8.0.3
-  lerna:
-    specifier: ^8.1.2
-    version: 8.1.2
-  markdownlint:
-    specifier: ^0.28.1
-    version: 0.28.2
-  pnpm:
-    specifier: ^8.6.0
-    version: 8.15.4
-  rimraf:
-    specifier: ^3.0.2
-    version: 3.0.2
-  ts-node:
-    specifier: ^10.9.1
-    version: 10.9.2(@types/node@20.11.25)(typescript@5.4.2)
-  tslib:
-    specifier: ^2.5.2
-    version: 2.6.2
-  typedoc:
-    specifier: ^0.24.7
-    version: 0.24.8(typescript@5.4.2)
-  typescript:
-    specifier: ^5.0.4
-    version: 5.4.2
-  vue-template-compiler:
-    specifier: ^2.7.14
-    version: 2.7.16
-  vuepress:
-    specifier: ^1.9.10
-    version: 1.9.10
-  vuepress-plugin-one-click-copy:
-    specifier: ^1.0.6
-    version: 1.0.6
-  vuepress-plugin-zooming:
-    specifier: ^1.1.8
-    version: 1.1.8
+  .:
+    dependencies:
+      conventional-changelog-conventionalcommits:
+        specifier: ^4.5.0
+        version: 4.6.3
+    devDependencies:
+      '@commitlint/cli':
+        specifier: ^17.6.1
+        version: 17.8.1
+      husky:
+        specifier: ^8.0.3
+        version: 8.0.3
+      lerna:
+        specifier: ^8.1.2
+        version: 8.1.2
+      markdownlint:
+        specifier: ^0.28.1
+        version: 0.28.2
+      pnpm:
+        specifier: ^8.6.0
+        version: 8.15.4
+      rimraf:
+        specifier: ^3.0.2
+        version: 3.0.2
+      ts-node:
+        specifier: ^10.9.1
+        version: 10.9.2(@types/node@20.11.25)(typescript@5.4.2)
+      tslib:
+        specifier: ^2.5.2
+        version: 2.6.2
+      typedoc:
+        specifier: ^0.24.7
+        version: 0.24.8(typescript@5.4.2)
+      typescript:
+        specifier: ^5.0.4
+        version: 5.4.2
+      vue-template-compiler:
+        specifier: ^2.7.14
+        version: 2.7.16
+      vuepress:
+        specifier: ^1.9.10
+        version: 1.9.10
+      vuepress-plugin-one-click-copy:
+        specifier: ^1.0.6
+        version: 1.0.6
+      vuepress-plugin-zooming:
+        specifier: ^1.1.8
+        version: 1.1.8
+
+  packages/commitlint-config:
+    dependencies:
+      conventional-changelog-conventionalcommits:
+        specifier: ^7.0.2
+        version: 7.0.2
+
+  packages/hooks: {}
+
+  packages/markdownlint-config: {}
+
+  packages/ui: {}
 
 packages:
 
@@ -4597,6 +4611,13 @@ packages:
       compare-func: 2.0.0
       lodash: 4.17.21
       q: 1.5.1
+    dev: false
+
+  /conventional-changelog-conventionalcommits@7.0.2:
+    resolution: {integrity: sha512-NKXYmMR/Hr1DevQegFB4MwfM5Vv0m4UIxKZTTYuD98lpTknaZlSRrDOG4X7wIXpGkfsYxZTghUN+Qq+T0YQI7w==}
+    engines: {node: '>=16'}
+    dependencies:
+      compare-func: 2.0.0
     dev: false
 
   /conventional-changelog-core@5.0.1:

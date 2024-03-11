@@ -1,0 +1,29 @@
+{
+  "name": "markdownlint-config",
+  "version": "0.0.3",
+  "description": "> TODO: description",
+  "author": "李常国 <1282128587@qq.com>",
+  "homepage": "https://github.com/MCLCG/fe-spec#readme",
+  "license": "ISC",
+  "main": "lib/markdownlint-config.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MCLCG/fe-spec.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/markdownlint-config.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/MCLCG/fe-spec/issues"
+  }
+}
