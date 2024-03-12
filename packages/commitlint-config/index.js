@@ -1,3 +1,11 @@
+/*
+ * @Author: 李常国 1282128587@qq.com
+ * @Date: 2024-03-11 20:18:46
+ * @LastEditors: 李常国 1282128587@qq.com
+ * @LastEditTime: 2024-03-12 16:10:56
+ * @FilePath: \hooks\fe-spec\packages\commitlint-config\index.js
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 module.exports = {
   parserPreset: 'conventional-changelog-conventionalcommits',
   rules: {

@@ -8,6 +8,4 @@ tags:
 
 # HTML 编码规范
 
-::: tip
-tip111
-:::
+
