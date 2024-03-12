@@ -5,6 +5,7 @@
         "packages/*"
     ],
     "scripts": {
+        "commit": "commit",
         "preinstall": "npx only-allow pnpm",
         "prepare": "husky install",
         "init": "pnpm install",
@@ -21,9 +22,11 @@
         "conventional-changelog-conventionalcommits": "^4.5.0"
     },
     "devDependencies": {
-        "lerna": "^8.1.2",
-        "@commitlint/cli": "^17.6.1",
+        "@commitlint/cli": "^17.8.1",
+        "@commitlint/config-conventional": "^19.1.0",
+        "@commitlint/prompt-cli": "^19.1.0",
         "husky": "^8.0.3",
+        "lerna": "^8.1.2",
         "markdownlint": "^0.28.1",
         "pnpm": "^8.6.0",
         "rimraf": "^3.0.2",
