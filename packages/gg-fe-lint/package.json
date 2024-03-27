@@ -14,7 +14,6 @@
         "build": "rimraf lib && npm run copyfiles && tsc",
         "copyfiles": "copyfiles -a -u 1 \"src/config/**\" lib",
         "coverage": "nyc jest --silent --forceExit",
-        "prepublishOnly": "npm run test"
     },
     "directories": {
         "lib": "lib",
@@ -82,5 +81,5 @@
         "prettier": "^3.2.5",
         "stylelint": "^14.3.0"
     },
-    "gitHead": "f674c44c7e9a3f3b00bb96d58cd773fcd05e8f6e"
+    "gitHead": "893c90f5a916e83d1dc519ff97419438277747b0"
 }
