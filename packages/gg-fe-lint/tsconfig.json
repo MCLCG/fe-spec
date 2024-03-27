@@ -13,6 +13,6 @@
         ]
     },
     "include": [
-        "src"
+        "./src"
     ] // 只配置src的ts
 }
