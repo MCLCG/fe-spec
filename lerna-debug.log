@@ -1,0 +1,15 @@
+0 silly argv {
+0 silly argv   _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '8.1.2',
+0 silly argv   '$0': 'D:\\WebProject\\develop\\node_global\\node_modules\\lerna\\dist\\cli.js'
+0 silly argv }
+1 notice cli v8.1.2
+2 verbose packageConfigs Package manager "pnpm" detected. Resolving packages using `pnpm-workspace.yaml`.
+3 verbose rootPath C:\Users\A\Desktop\hooks\fe-spec
+4 error SyntaxError: C:\Users\A\Desktop\hooks\fe-spec\packages\gg-fe-lint\package.json: Unexpected token } in JSON at position 543
+4 error     at JSON.parse (<anonymous>)
+4 error     at _readFile (C:\Users\A\Desktop\hooks\fe-spec\node_modules\.pnpm\jsonfile@6.1.0\node_modules\jsonfile\index.js:25:16)
+4 error     at async Promise.all (index 4)
+4 error     at async createProjectGraphWithPackages (C:\Users\A\Desktop\hooks\fe-spec\node_modules\.pnpm\lerna@8.1.2\node_modules\lerna\dist\index.js:1445:18)
+4 error     at async detectProjects (C:\Users\A\Desktop\hooks\fe-spec\node_modules\.pnpm\lerna@8.1.2\node_modules\lerna\dist\index.js:1565:24)
