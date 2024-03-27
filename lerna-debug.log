@@ -3,10 +3,10 @@
 63 error npm ERR! code ERESOLVE
 63 error npm ERR! ERESOLVE unable to resolve dependency tree
 63 error npm ERR!
-63 error npm ERR! While resolving: gg-fe-lint@0.0.10
+63 error npm ERR! While resolving: gg-fe-lint@0.0.11
 63 error npm ERR! Found: markdownlint@0.25.1
 63 error npm ERR! node_modules/markdownlint
-63 error npm ERR!   markdownlint@"^0.25.1" from gg-fe-lint@0.0.10
+63 error npm ERR!   markdownlint@"^0.25.1" from gg-fe-lint@0.0.11
 63 error npm ERR!   packages/gg-fe-lint
 63 error npm ERR!     gg-fe-lint@0.0.9
 63 error npm ERR!     node_modules/gg-fe-lint
@@ -15,7 +15,7 @@
 63 error npm ERR! Could not resolve dependency:
 63 error npm ERR! peer markdownlint@"^0.28.1" from markdownlint-config-encode@1.0.8
 63 error npm ERR! node_modules/markdownlint-config-encode
-63 error npm ERR!   markdownlint-config-encode@"^1.0.8" from gg-fe-lint@0.0.10
+63 error npm ERR!   markdownlint-config-encode@"^1.0.8" from gg-fe-lint@0.0.11
 63 error npm ERR!   packages/gg-fe-lint
 63 error npm ERR!     gg-fe-lint@0.0.9
 63 error npm ERR!     node_modules/gg-fe-lint
@@ -28,7 +28,7 @@
 63 error npm ERR! See D:\WebProject\develop\node_cache\eresolve-report.txt for a full report.
 63 error
 63 error npm ERR! A complete log of this run can be found in:
-63 error npm ERR!     D:\WebProject\develop\node_cache\_logs\2024-03-27T07_51_18_578Z-debug-0.log
+63 error npm ERR!     D:\WebProject\develop\node_cache\_logs\2024-03-27T07_56_52_160Z-debug-0.log
 63 error     at makeError (C:\Users\A\Desktop\hooks\fe-spec\node_modules\.pnpm\execa@5.0.0\node_modules\execa\lib\error.js:59:11)
 63 error     at handlePromise (C:\Users\A\Desktop\hooks\fe-spec\node_modules\.pnpm\execa@5.0.0\node_modules\execa\index.js:114:26)
 63 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
