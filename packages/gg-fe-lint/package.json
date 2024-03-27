@@ -1,7 +1,7 @@
 {
     "name": "gg-fe-lint",
     "version": "0.0.8",
-    "description": "> TODO: description",
+    "description": "国国的脚手架",
     "author": "李常国 <1282128587@qq.com>",
     "homepage": "https://github.com/MCLCG/fe-spec#readme",
     "license": "ISC",
@@ -12,10 +12,6 @@
         "build": "rimraf lib && npm run copyfiles && tsc",
         "copyfiles": "copyfiles -a -u 1 \"src/config/**\" lib",
         "coverage": "nyc jest --silent --forceExit"
-    },
-    "directories": {
-        "lib": "lib",
-        "test": "__tests__"
     },
     "files": [
         "lib/"
@@ -79,5 +75,5 @@
         "prettier": "^3.2.5",
         "stylelint": "^14.3.0"
     },
-    "gitHead": "8463e8fdf4180bb89764754d3a717028c57781f7"
+    "gitHead": "2b074533f62b978bf0f6dae168ecd6d5ffaf35cf"
 }
