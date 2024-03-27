@@ -13,7 +13,7 @@
         "dev": "npm run copyfiles && tsc -w",
         "build": "rimraf lib && npm run copyfiles && tsc",
         "copyfiles": "copyfiles -a -u 1 \"src/config/**\" lib",
-        "coverage": "nyc jest --silent --forceExit",
+        "coverage": "nyc jest --silent --forceExit"
     },
     "files": [
         "lib/"
