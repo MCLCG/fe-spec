@@ -6,6 +6,7 @@ import inquirer from 'inquirer';
 // 在不同的操作系统上，执行外部命令的方式可能会有所不同，
 // 而 cross-spawn 可以确保在所有平台上一致地执行外部命令。
 import spawn from 'cross-spawn';
+// a
 import update from './update';
 import npmType from '../utils/npm-type';
 import log from '../utils/log';
