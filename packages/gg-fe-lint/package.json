@@ -5,9 +5,7 @@
     "author": "李常国 <1282128587@qq.com>",
     "homepage": "https://github.com/MCLCG/fe-spec#readme",
     "license": "ISC",
-    "bin": {
-        "gg-init": "./lib/cli.js"
-    },
+    "bin": "./lib/cli.js",
     "main": "./lib/index.js",
     "scripts": {
         "dev": "npm run copyfiles && tsc -w",
@@ -81,5 +79,5 @@
         "prettier": "^3.2.5",
         "stylelint": "^14.3.0"
     },
-    "gitHead": "893c90f5a916e83d1dc519ff97419438277747b0"
+    "gitHead": "8463e8fdf4180bb89764754d3a717028c57781f7"
 }
