@@ -1,15 +1,36 @@
-0 silly argv {
-0 silly argv   _: [ 'publish' ],
-0 silly argv   composed: 'publish',
-0 silly argv   lernaVersion: '8.1.2',
-0 silly argv   '$0': 'D:\\WebProject\\develop\\node_global\\node_modules\\lerna\\dist\\cli.js'
-0 silly argv }
-1 notice cli v8.1.2
-2 verbose packageConfigs Package manager "pnpm" detected. Resolving packages using `pnpm-workspace.yaml`.
-3 verbose rootPath C:\Users\A\Desktop\hooks\fe-spec
-4 error SyntaxError: C:\Users\A\Desktop\hooks\fe-spec\packages\gg-fe-lint\package.json: Unexpected token } in JSON at position 543
-4 error     at JSON.parse (<anonymous>)
-4 error     at _readFile (C:\Users\A\Desktop\hooks\fe-spec\node_modules\.pnpm\jsonfile@6.1.0\node_modules\jsonfile\index.js:25:16)
-4 error     at async Promise.all (index 4)
-4 error     at async createProjectGraphWithPackages (C:\Users\A\Desktop\hooks\fe-spec\node_modules\.pnpm\lerna@8.1.2\node_modules\lerna\dist\index.js:1445:18)
-4 error     at async detectProjects (C:\Users\A\Desktop\hooks\fe-spec\node_modules\.pnpm\lerna@8.1.2\node_modules\lerna\dist\index.js:1565:24)
+63 error Error: Command failed with exit code 1: npm install --package-lock-only --ignore-scripts
+63 error npm WARN config global `--global`, `--local` are deprecated. Use `--location=global` instead.
+63 error npm ERR! code ERESOLVE
+63 error npm ERR! ERESOLVE unable to resolve dependency tree
+63 error npm ERR!
+63 error npm ERR! While resolving: gg-fe-lint@0.0.10
+63 error npm ERR! Found: markdownlint@0.25.1
+63 error npm ERR! node_modules/markdownlint
+63 error npm ERR!   markdownlint@"^0.25.1" from gg-fe-lint@0.0.10
+63 error npm ERR!   packages/gg-fe-lint
+63 error npm ERR!     gg-fe-lint@0.0.9
+63 error npm ERR!     node_modules/gg-fe-lint
+63 error npm ERR!       workspace packages\gg-fe-lint from the root project
+63 error npm ERR!
+63 error npm ERR! Could not resolve dependency:
+63 error npm ERR! peer markdownlint@"^0.28.1" from markdownlint-config-encode@1.0.8
+63 error npm ERR! node_modules/markdownlint-config-encode
+63 error npm ERR!   markdownlint-config-encode@"^1.0.8" from gg-fe-lint@0.0.10
+63 error npm ERR!   packages/gg-fe-lint
+63 error npm ERR!     gg-fe-lint@0.0.9
+63 error npm ERR!     node_modules/gg-fe-lint
+63 error npm ERR!       workspace packages\gg-fe-lint from the root project
+63 error npm ERR!
+63 error npm ERR! Fix the upstream dependency conflict, or retry
+63 error npm ERR! this command with --force, or --legacy-peer-deps
+63 error npm ERR! to accept an incorrect (and potentially broken) dependency resolution.
+63 error npm ERR!
+63 error npm ERR! See D:\WebProject\develop\node_cache\eresolve-report.txt for a full report.
+63 error
+63 error npm ERR! A complete log of this run can be found in:
+63 error npm ERR!     D:\WebProject\develop\node_cache\_logs\2024-03-27T07_51_18_578Z-debug-0.log
+63 error     at makeError (C:\Users\A\Desktop\hooks\fe-spec\node_modules\.pnpm\execa@5.0.0\node_modules\execa\lib\error.js:59:11)
+63 error     at handlePromise (C:\Users\A\Desktop\hooks\fe-spec\node_modules\.pnpm\execa@5.0.0\node_modules\execa\index.js:114:26)
+63 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+63 error     at async VersionCommand.updatePackageVersions (C:\Users\A\Desktop\hooks\fe-spec\node_modules\.pnpm\lerna@8.1.2\node_modules\lerna\dist\index.js:8469:13)
+63 error     at async Promise.all (index 0)
