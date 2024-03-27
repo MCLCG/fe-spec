@@ -13,9 +13,7 @@
         "dev": "npm run copyfiles && tsc -w",
         "build": "rimraf lib && npm run copyfiles && tsc",
         "copyfiles": "copyfiles -a -u 1 \"src/config/**\" lib",
-        "test": "npm run build && jest",
         "coverage": "nyc jest --silent --forceExit",
-        "prepublishOnly": "npm run test"
     },
     "files": [
         "lib/"
@@ -97,5 +95,5 @@
         "text-table": "^0.2.0",
         "vue-eslint-parser": "^7.3.0"
     },
-    "gitHead": "af3ac598832c84dafab28171cff0a00a92652fbf"
+    "gitHead": "c374e0ba0e89669083a85e60a966815a9a114863"
 }
